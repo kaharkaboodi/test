@@ -1,0 +1,68 @@
+
+body{
+    background-color: rgb(253, 196, 9);
+}
+.sortlist {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+  
+    display : inline-flexbox
+  }
+  .sortlist button{
+    font-family: cursive;
+    font-size: larger;
+    font-weight: bolder;
+    border :5px solid rgb(74, 100, 32);
+    height: 80px;
+    width: 160px;
+    box-shadow: 0 0 15px rgb(160, 160, 95);
+    cursor: pointer;
+    margin-top: 0px;
+    
+  }
+  button:hover {
+    background-color: rgb(37, 82, 112);
+    box-shadow: 0 0 25px rgb(110, 131, 110);
+    color: wheat;
+  }
+  .sortlistt{
+    text-align: center;
+    margin-top: 8px;
+    margin-left: 200px;
+  
+    display : inline-flexbox
+  
+  }
+  .sortlistt button{
+    font-family: cursive;
+    font-size: larger;
+    font-weight: bolder;
+    border :5px solid rgb(74, 100, 32);
+    height: 80px;
+    width: 160px;
+    box-shadow: 0 0 15px rgb(160, 160, 95);
+    cursor: pointer;
+    margin-top: 0px;
+    
+    
+  }
+  .sortlistf{
+    text-align: center;
+    margin: 2%;
+    display:flexbox;
+  
+    
+  
+  }
+  .sortlistf button{
+    font-family: cursive;
+    font-size: large;
+    font-weight: bolder;
+    border :5px solid rgb(74, 100, 32);
+    height: 80px;
+    width: 31%;
+    box-shadow: 0 0 15px rgb(160, 160, 95);
+    cursor: pointer;
+    margin-top: 0px;
+  }

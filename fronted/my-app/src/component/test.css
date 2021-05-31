@@ -1,0 +1,134 @@
+
+
+
+.a{
+    margin-top: 0px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+.b1{
+    margin-top: 1px;
+    width: 33%;
+    background-color: rgb(132, 161, 0);
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bolder;
+    padding: 20px;
+   cursor: pointer;
+   
+   border:rgb(0, 98, 128) solid 6px;
+}
+.b1:hover{
+    background-color: rgb(0, 95, 55);
+    color: rgb(214, 208, 197);
+    border-radius: 0px;
+}
+.G{
+    border:5px solid blanchedalmond;
+    width: 100%;
+    height:700px;
+    
+    
+}
+.text{
+    color: wheat;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: larger;  
+    
+}
+.tr{
+     width: 100px;
+  height: 100px;
+  background-color: red;
+  
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count:infinite;
+  animation-timing-function: ease-out;
+
+}
+
+@keyframes example {
+    
+    from{width: 100px;}
+    to{width: 250px;}
+    
+  }
+  .gridc{
+    display: grid;
+    grid-template-columns: 40% 40% ;
+   
+    padding: 1px;
+    grid-gap: 100px;
+  }
+  
+.progress{
+    width: 500px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(36, 114, 25);
+    background-image: linear-gradient(100deg, rgb(36, 114, 25) , rgb(40, 131, 81) );
+    animation-name: pr;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+@keyframes pr {
+    0% {width: 0px;}
+    100% {width: 500px;}
+}
+.griditem1{
+    grid-row: 1/4;
+   
+}
+.griditem{
+    
+    padding: 10px;
+}
+
+#number{
+   text-align: center;
+   color: seashell;
+   font-weight: bolder;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.gridccontact{
+    display: grid;
+    grid-template-columns: 49% 49%;
+    align-items: center;
+    margin-left: 1%;
+    grid-gap:10px;
+    margin-top: 3px;
+}
+.griditemcontacy {
+
+ background-color: rgb(224, 79, 79);
+ padding: 10px;
+ box-shadow: 5px 10px 14px rgb(224, 107, 78);
+ border: 2.5px double rgb(167, 18, 18);
+}
+.gridccontact :hover {
+    box-shadow: 5px 10px 14px rgb(15, 42, 92);
+    background-color: rgba(35, 118, 182, 0.856);
+}
+a{
+    text-decoration: none;
+    color: rgb(9, 15, 5);
+    font-size: larger;
+    font-weight: bolder;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.griditemcontacyM{
+    margin-top: 2px;
+    background-color:rgb(224, 79, 79) ;
+    padding: 0.01px;
+    box-shadow: 5px 10px 14px rgb(224, 107, 78);
+}
+.griditemcontacyM :hover {
+    box-shadow: 5px 10px 14px rgb(15, 42, 92);
+    background-color: rgba(35, 118, 182, 0.856);
+}
